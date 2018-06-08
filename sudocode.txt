@@ -1,0 +1,8 @@
+Setup:
+  JSON file with RSS feed location and time period between checks
+
+Mainocess:
+  Get RSS feed location and time period from JSON file
+  Visit RSSeed and get links to websites
+  Visit each website and download raw HTML (excluding tags)
+  Seperate HTML into words and save in database
